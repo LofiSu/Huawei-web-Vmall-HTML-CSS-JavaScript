@@ -1,0 +1,245 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    /* margin-top: 1px; */
+    background-color: #F9F9F9;
+}
+
+.footer-w {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.footer-top-wrapper {
+    margin-top: 30px;
+    font-size: 0;
+    margin-right: -30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.footer-top-wrapper>li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.footer-top-wrapper>li>a>* {
+    vertical-align: middle;
+}
+
+.footer-top-wrapper>li>a>span {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #333333;
+}
+
+.footer-top-wrapper>li>a>i {
+    font-size: 38px;
+    color: #CB242B;
+}
+
+/* 中间 */
+.footer-ctr-wrapper {
+    display: flex;
+    margin: 20px 0 30px 0;
+}
+
+.footer-ctr-lft {
+    flex: 1;
+    border-right: 1px solid #E9E9E9;
+    display: flex;
+}
+
+.footer-ctr-lft>div {
+    flex: 1;
+}
+
+.footer-ctr-lft>div>p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.footer-ctr-lft>div>span {
+    display: block;
+    font-size: 13px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.footer-ctr-lft>div>span:hover {
+    cursor: pointer;
+    color: #CB242B;
+}
+
+/* 右边 */
+.footer-rgt-wrapper {
+    position: relative;
+    width: 299px;
+    text-align: center;
+
+}
+
+.footer-rgt-wrapper>h4 {
+
+    font-weight: bold;
+    font-size: 24px;
+    color: #575757;
+    padding-bottom: 5px;
+}
+
+.footer-rgt-wrapper>span {
+    font-size: 14px;
+    color: #575757;
+}
+
+.footer .customer {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #333333;
+    margin: 15px 80px 20px 80px;
+}
+
+.footer .customer>* {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.footer .customer>i {
+    padding-left: 5px;
+}
+
+/* 图标 */
+.footer-icon {
+    position: relative;
+}
+
+/* 图标阴影 */
+.footer-icon>span {
+    color: #575757;
+    font-size: 15px;
+}
+
+/* 图标大小 */
+.footer-icon>i {
+    font-size: 22px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+/* 滑过图表达时候 */
+.footer-icon>i:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* 二维码块隐藏 */
+.wechat-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 滑到微信图标时候二维码滑块弹出 */
+.icon-wechat:hover .wechat-popup {
+    display: block;
+    /* 占据一行，不与其他元素并排显示。 默认情况下，宽度会自动填充父元素的可用空间。 可以设置宽度、高度、内边距和外边距等属性。 可以包含内联元素和其他块级元素。 在上述代码中，display: block;
+        用于将 .wechat-popup 元素设置为块级元素，以便在悬停时显示微信弹出窗口，并确保其能够占据一行并显示在父容器下方。 */
+
+}
+
+/* .footer .footeer-icon>span { 
+    color: #575757;
+    font-size: 15px;
+}
+
+.footer .footeer-icon>i {
+    font-size: 22px;
+    padding: 0 4px;
+}
+
+.footer .footeer-icon>i:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer .customer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/* 下边 */
+.footer-btm-wrapper {
+    border-top: 1px solid #E9E9E9;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-btm-wrapper>.btm-lft {
+    width: 100px;
+    float: left;
+}
+
+.footer-btm-wrapper>.btm-lft>img {
+    width: 100%;
+    font-size: 0;
+}
+
+.footer-btm-wrapper>.btn-ctr {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-btm-wrapper>.btn-ctr>a {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
+
+.footer-btm-wrapper>.btn-ctr>a>span {
+    color: #D3D3D3;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.footer-btm-wrapper>.btn-btn {
+    display: inline-block;
+    width: 64%;
+    margin-left: 20px;
+}
+
+.footer-btm-wrapper>.btn-btn>* {
+    font-size: 12px;
+    color: #A4A4A4;
+}
+
+/* 鼠标滑过 */
+.footer-btm-wrapper>.btn-ctr>a:hover {
+    color: #CB242B;
+}
+
+.footer-btm-wrapper>.btn-btn>a:hover {
+    color: #CB242B;
+}
+
+/* 右边 */
+.footer-btm-wrapper>.btn-rgt {
+    float: right;
+    width: 10%;
+}
+
+.footer-btm-wrapper>.btn-rgt>img {
+    width: 70%;
+    font-size: 0;
+}

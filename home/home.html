@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+    <link rel="stylesheet" type="text/css" href="../public/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../public/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../footer/footer.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="stylesheet" type="text/css" href="../top/top.css" />
+
+    <title>商城首页</title>
+</head>
+
+<body>
+    <!-- 广告图开始 这里只插入了顶部广告图，没有单独的广告界面 -->
+    <div class="tou w-big">
+        <a href="#"><img src="../home/head.jpg" alt=""></a>
+    </div>
+    <!-- 黑色导航tong栏  开始-->
+    <div class="header tonglan">
+        <div class="w">
+            <!-- 右边 -->
+            <ul class="header-rgt clearfix">
+                <li><a href="#">我的订单</a></li>
+                <li class="tr">
+                    <a href="#">客户服务<i class="iconfont icon-downarrow"></i></a>
+                    <ul class="rgt-nav-sub r1">
+                        <li><a href="#">服务中心</a></li>
+                        <li><a href="#">联系客服</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">网站导航</a></li>
+                <li class="tr">
+                    <a href="#">手机版<i class="iconfont icon-downarrow"></i></a>
+                    <div class="rgt-nav-sub r2">
+                        <img src="../pic/5B874DC0E45B0467105D3D3872A3E9A3.png" height="100px" ; width="100px">
+                        <span>华为商城APP
+                            <p style="font-size: 10px;color:rgb(113, 112, 112);">新人有礼</p>
+                            <p style="font-size: 10px; color: rgb(237, 79, 79);"><u>立即前往福利专区</u></p>
+                            <i style="color:rgb(102, 101, 101);" class="iconfont icon-wechat"></i>
+                            <p style="font-size: 7px;color:rgb(113, 113, 113);">wechat</p>
+                        </span>
+                        <hr>
+                        <img src="../pic/66357398344619375366.jpg" height="100px" ; width="100px">
+                        <span>华为商城公众号
+                            <p style="font-size: 10px;color:rgb(113, 112, 112);">微信扫一扫</p>
+                            <i style="color:rgb(113, 112, 112);" class="iconfont icon-wechat"></i>
+                            <p style="font-size: 7px;color:rgb(113, 112, 112);">wechat</p>
+                        </span>
+                        <hr>
+                        <img src="../pic/89531474913617413598.png" height="100px" ; width="100px">
+                        <span>微信小程序
+                            <p></p>
+                            <i style="color:rgb(113, 112, 112);" class="iconfont icon-wechat"></i>
+                            <p style="font-size: 7px;color:rgb(113, 112, 112);">wechat</p>
+                        </span>
+
+                    </div>
+                </li>
+                <li class="tr">
+                    <a href="#"><i class="iconfont">&#xe607;</i>购物车(0)</a>
+                    <ul class="rgt-nav-sub r4"><img src="../home/cart-big.svg" alt="">
+                        <p></p><br>
+                        <p>您的购物车是空的，赶紧选购吧！</p>
+                    </ul>
+                </li>
+            </ul>
+            <!-- 左边 -->
+            <ul class="header-lft clearfix">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">消费者业务网站</a></li>
+                <li><a href="#">V码(优购码)</a></li>
+                <li><a href="#">企业商用</a></li>
+                <li><a href="#">Select Region</a></li>
+                <li class="tr"><a href="#">更多精彩<i class="iconfont icon-downarrow"></i></a>
+                    <ul class="lft-nav-sub r3">
+                        <li><a href="#">HarmonyOS</a></li>
+                        <li><a href="#">应用市场</a></li>
+                        <li><a href="#">华为终端云空间</a></li>
+                        <li><a href="#">开发者联盟</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 黑色导航tong栏  结束-->
+    <!-- 白色菜单栏 你需要把导航栏提出去，提到body里 -->
+    <div class="menu">
+        <div class="w-top">
+            <div class="menu1 clearfix">
+                <img src="../top/logo.png" alt="logo" width="100px" height="70px">
+            </div>
+            <div class="logo-nav-sub">
+                <div class="qbfl"><img src="../home/qbfl.svg" alt="">全部分类</div>
+                <div><a href="">华为</a></div>
+                <div><a href="">鸿蒙智行</a></div>
+                <div><a href="">华为智选</a></div>
+                <div><a href="">生态周边</a></div>
+            </div>
+            <div class="searchbox-wrapper">
+                <img src="../pic/5fe53102-8e88-49be-80c8-a3f9ccce9693.svg" alt="搜索图标">
+            </div>
+            <div class="searchbox-container">
+                <div class="searchbox">
+                    <input type="text" class="search-input" placeholder="搜索商品">
+                    <img src="../pic/5fe53102-8e88-49be-80c8-a3f9ccce9693.svg" alt="搜索图标" class="search-icon">
+                </div>
+                <div class="recommendations">
+                    <ul>
+                        <li>猜你想搜</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- 轮播图 主体部分 -->
+    <div class="banner w-big">
+        <ul class="banner-slide clearfix">
+            <li class="active"><a href="#"><img src="../home/banner-big1.jpg" alt=""></a>
+            </li>
+            <li><a href="#"><img src="../home/banner-big2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="../home/banner-big3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="../home/banner-big4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="../home/banner-big5.jpg" alt=""></a></li>
+            <li><a href="#"><img src="../home/banner-big6.jpg" alt=""></a></li>
+        </ul>
+        <div class="banner-prev">
+            <i class="#"></i>
+        </div>
+        <div class="banner-next">
+            <i class="#"></i>
+        </div>
+        <ul class="banner-indicators clearfix">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- 一二级菜单 -->
+        <!-- <div class="banner-wrapper w">
+            
+        </div> -->
+        <ul class="main">
+
+        </ul>
+    </div>
+    <div class="container">
+        <!-- 中间选择栏 -->
+        <div class="some-choice">
+            <div class="up">
+                <a target="_blank">
+                    <div class="smart-office content">
+                        <img src="../home/1.webp" alt="" width="66px" height="66px">
+                        <div>智慧办公</div>
+                    </div>
+                </a>
+                <a target="_blank">
+                    <div class="smart-home content">
+                        <img src="../home/2.png" alt="" width="66px" height="66px">
+                        <div>智能家居</div>
+                    </div>
+                </a>
+                <a target="_blank">
+                    <div class="car content">
+                        <img src="../home/3.webp" alt="" width="66px" height="66px">
+                        <div>鸿蒙智行</div>
+                    </div>
+                </a>
+                <a target="_blank">
+                    <div class="huawei-phone content">
+                        <img src="../home/4.webp" alt="" width="66px" height="66px">
+                        <div>华为手机</div>
+                    </div>
+                </a>
+                <a target="_blank">
+                    <div class="huawei-phone content">
+                        <img src="../home/5.png" alt="" width="66px" height="66px">
+                        <div>影音娱乐</div>
+                    </div>
+                </a>
+                <a target="_blank">
+                    <div class="huawei-phone content">
+                        <img src="../home/6.webp" alt="" width="66px" height="66px">
+                        <div>运动健康</div>
+                    </div>
+                </a>
+
+
+            </div>
+            <div class="down">
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/7.webp" alt="" width="66px" height="66px">
+                        <div>企业商用</div>
+                    </div>
+                </a>
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/8.webp" alt="" width="66px" height="66px">
+                        <div>配件</div>
+                    </div>
+                </a>
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/9.webp" alt="" width="66px" height="66px">
+                        <div>全屋智能</div>
+                    </div>
+                </a>
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/10.webp" alt="" width="66px" height="66px">
+                        <div>她之选</div>
+                    </div>
+                </a>
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/11.webp" alt="" width="66px" height="66px">
+                        <div>以旧换新</div>
+                    </div>
+                </a>
+                <a>
+                    <div class="qysy content">
+                        <img src="../home/12.webp" alt="" width="66px" height="66px">
+                        <div>华为智选</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- 推荐 -->
+        <div class="tuijian">
+            <div class="recommendation">
+                <div class="text">甄选推荐</div>
+                <div class="content">
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/re1.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    <div class="redbg-whiteword">
+                                        <span style="margin-left: 5px;margin-right: 5px">HUAWEI</span>
+                                    </div>
+                                    Pocket2
+                                </div>
+                                <div class="content2">超平整超可靠|全焦段XMAGE四摄</div>
+                                <div class="prince">￥7499起</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/re2.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">HUAWEI&nbsp;FreeClip&nbsp;</div>
+                                <div class="content2">舒适稳固佩戴|开放式近耳聆听</div>
+
+                                <div class="prince">￥1299起</div>
+
+
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/re3.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">HUAWEI|MatePad2024款</div>
+                                <div class="content2">11.5英寸护眼大屏|专属教育中心</div>
+                                <div class="prince">￥1399起</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/re4.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    HUAWEI|MateBook 14
+                                </div>
+                                <div class="content2">2K触控全面屏丨13代酷睿处理器</div>
+                                <div class="prince">￥4999</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="phone-area">
+                <div class="text">手机专区</div>
+                <div class="content">
+                    <div class="up">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p1.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        nova&nbsp;12&nbsp;Pro&nbsp;
+                                    </div>
+                                    <div class="content2">物理可变光圈丨前置6000万人像追焦双摄</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥4399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p2.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        Mate&nbsp;X5&nbsp;
+                                    </div>
+                                    <div class="content2">超轻薄四曲折叠丨超耐用炫舞钢化昆仑玻璃</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥16999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p3.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        华为畅享&nbsp;70&nbsp;Pro
+                                    </div>
+                                    <div class="content2">1亿像素影像丨HarmonyOS 4</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1649</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p4.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        nova&nbsp;12
+                                    </div>
+                                    <div class="content2">鸿蒙智慧通信丨100W智能快充Turbo</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥3399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p5.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        nova&nbsp;11&nbsp;SE
+                                    </div>
+                                    <div class="content2">3200万高清自拍|一亿像素光影人像</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1899</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p6.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        华为畅享&nbsp;70&nbsp;z&nbsp;
+                                    </div>
+                                    <div class="content2">6000mAh丨HarmonyOS4</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1249</div>
+                                        <div class="line-prince">￥1399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/p7.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        Mate&nbsp;60&nbsp;
+                                    </div>
+                                    <div class="content2">超可靠玄武架构丨全焦段超清影像</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥5999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/18.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        Mate&nbsp;60&nbsp;Pro+
+                                    </div>
+                                    <div class="content2">双卫星通信丨超可靠玄武架构</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥8999</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="computer-area">
+                <div class="text">电脑专区</div>
+                <div class="content">
+                    <div class="up">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/1.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        HUAWEI&nbsp;MateBook&nbsp;14s
+                                    </div>
+                                    <div class="content2">12代酷睿标压处理器</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥5299</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/2.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        HUAWEI&nbsp;MateBook&nbsp;16s
+                                    </div>
+                                    <div class="content2">2.5K高色准触控屏丨13代酷睿i9标压处理器</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥9499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/3.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        HUAWEI&nbsp;MateBook&nbsp;X&nbsp;Pro
+                                    </div>
+                                    <div class="content2">微绒金属机身丨3.1K原色全面屏</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥12999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/4.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        HUAWEI&nbsp;MateView
+                                    </div>
+                                    <div class="content2">内置音箱丨4K+丨低蓝光</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥2799</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/5.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        PixLab&nbsp;X1
+                                    </div>
+                                    <div class="content2">高速打印丨自动双面丨一碰打印</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1299</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/6.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+
+                                        MateStation&nbsp;S&nbsp;系列
+                                    </div>
+                                    <div class="content2">12代酷睿处理器</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥3499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/7.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MateStation&nbsp;X
+                                    </div>
+                                    <div class="content2">4K+原色全面屏丨搭载12酷睿</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥14499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/computer-area/8.png" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MateStation&nbsp;X
+                                    </div>
+                                    <div class="content2">4K+原色全面屏丨搭载12酷睿</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥14499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablet-area">
+                <div class="text">平板专区</div>
+                <div class="content">
+                    <div class="up">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/1.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MatePad&nbsp;Pro&nbsp;13.2英寸
+                                    </div>
+                                    <div class="content2">13.2英寸OLED大屏</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥5199</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/2.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        MatePad&nbsp;
+                                    </div>
+                                    <div class="content2">11.5英寸护眼大屏</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥1699</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/3.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MatePad&nbsp;Air
+                                    </div>
+                                    <div class="content2">144Hz高刷全面屏</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥2699</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/4.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MateBook&nbsp;E&nbsp;
+                                    </div>
+                                    <div class="content2">二合一平板电脑</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥6999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/5.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MatePad&nbsp;11英寸&nbsp;
+                                    </div>
+                                    <div class="content2">120Hz纸感柔光屏</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1799</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/6.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MatePad&nbsp;Pro&nbsp;12.6英寸&nbsp;2022
+                                    </div>
+                                    <div class="content2">PC级专业办公</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥3999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/7.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MateBook&nbsp;E&nbsp;Go
+                                    </div>
+                                    <div class="content2">二合一平板电脑</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥4999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/tablet-area/8.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        MatePad&nbsp;Pro&nbsp;10.8
+                                    </div>
+                                    <div class="content2">90%高屏占比</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥3499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wear-area">
+                <div class="text">穿戴专区</div>
+                <div class="content">
+                    <div class="up">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/1.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;GT&nbsp;4
+                                    </div>
+                                    <div class="content2">科学运动减脂丨心律失常提示丨强劲续航</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1538</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/2.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;ULTIMATE&nbsp;DESIGN
+                                    </div>
+                                    <div class="content2">华为首款黄金智能腕表</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥21999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/3.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;4&nbsp;Pro
+                                    </div>
+                                    <div class="content2">高血糖风险评估研究丨一键微体检</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥3349</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/4.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;4
+                                    </div>
+                                    <div class="content2">eSIM独立通话丨一键微体检</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥2649</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/5.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;Ultimate
+                                    </div>
+                                    <div class="content2">双向北斗卫星消息丨百米深潜科技</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥5999</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/6.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;GT&nbsp;3&nbsp;Pro
+                                    </div>
+                                    <div class="content2">无线快充、 心电分析 、非凡材质、腕上...</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1788</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/7.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        WATCH&nbsp;GT&nbsp;3
+                                    </div>
+                                    <div class="content2">强劲续航</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥1088</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/wear-area/8.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        儿童手表&nbsp;5&nbsp;活力版
+                                    </div>
+                                    <div class="content2">离线定位丨畅连视频通话</div>
+
+                                    <div class="row-prince">
+                                        <div class="prince">￥598</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="music-area">
+                <div class="text">音频专区</div>
+                <div class="content">
+
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/music/1.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    <div class="redbg-whiteword">
+                                        <span style="margin-left: 5px;margin-right: 5px">11.11</span>
+                                    </div>
+                                    FreeBuds&nbsp;5i&nbsp;
+                                </div>
+                                <div class="content2">Hi-Res高解析音质</div>
+
+                                <div class="row-prince">
+                                    <div class="prince">￥449</div>
+                                    <div class="line-prince">￥599</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/music/2.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    FreeBuds 4E
+                                </div>
+                                <div class="content2">半开放主动降噪2.0|空气感舒适佩戴</div>
+
+                                <div class="row-prince">
+                                    <div class="prince">￥499</div>
+                                    <div class="line-prince">￥699</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/music/2.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    FreeBuds 4E
+                                </div>
+                                <div class="content2">半开放主动降噪2.0|空气感舒适佩戴</div>
+
+                                <div class="row-prince">
+                                    <div class="prince">￥499</div>
+                                    <div class="line-prince">￥699</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank">
+                        <div class="son-content shadow">
+                            <img src="../home/music/3.png" alt="" width="100%" height="100%">
+                            <div class="text">
+                                <div class="content1">
+                                    FreeBuds 4E 2024款
+                                </div>
+                                <div class="content2">
+                                    半空气感舒适佩戴|高解析音质</div>
+
+                                <div class="row-prince">
+                                    <div class="prince">￥499</div>
+                                    <div class="line-prince">￥699</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="car">
+                <div class="text">鸿蒙智行</div>
+                <div class="content">
+                    <div class="up">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/1.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        问界&nbsp;新M7&nbsp;大五座
+                                    </div>
+                                    <div class="content2">新车上市</div>
+                                    <div class="row-boder">
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥258000</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/2.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        问界&nbsp;M5&nbsp;智驾版
+                                    </div>
+                                    <div class="content2">高阶智能驾驶系统</div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥279800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/3.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        问界&nbsp;M5&nbsp;纯电智驾版
+                                    </div>
+                                    <div class="content2">高阶智能驾驶系统</div>
+                                    <div class="row-boder">
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥289800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/4.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        问界&nbsp;M5&nbsp;标准版
+                                    </div>
+                                    <div class="content2">百公里加速低至4.4s</div>
+                                    <div class="row-boder">
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥249800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/5.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+
+                                        问界&nbsp;M5&nbsp;纯电标准版
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥259800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/6.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        问界&nbsp;新M7&nbsp;享六座
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥275800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/7.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        问界&nbsp;M7
+                                    </div>
+                                </div>
+                                <div class="row-prince">
+                                    <div class="prince">￥289800</div>
+                                </div>
+                            </div>
+
+                        </a>
+                        <a target="_blank">
+                            <div class="son-content shadow">
+                                <img src="../home/car/8.webp" alt="" width="100%" height="100%">
+                                <div class="text">
+                                    <div class="content1">
+                                        华为家充桩安装服务包
+                                    </div>
+                                    <div class="row-prince">
+                                        <div class="prince">￥8000</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右边固定任务栏 -->
+    <div class="fix">
+        <ul class="fix-nav">
+            <li><a class="iconfont icon-customer-service"></a>
+                <p>在线客服</p>
+            </li>
+            <li class="home-top"><a class="iconfont icon-un-backtotop-o"></a>
+                <p>回到顶部</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer tonglan">
+        <div class="footer-w w">
+            <ul class="footer-top-wrapper clearfix">
+                <li><a href=""><img src="../home/iconf/1.png">
+                        <span>百强企业 品质保证</span></a></li>
+                <li><a href=""><img src="../home/iconf/2.png">
+                        <span>7天退货 15天换货</span></a></li>
+                <li><a href=""><img src="../home/iconf/3.png">
+                        <span>48元起免运费</span></a></li>
+                <li><a href=""><img src="../home/iconf/4.png">
+                        <span>官方售后 全国联保</span></a></li>
+            </ul>
+
+            <div class="footer-ctr-wrapper clearfix">
+                <div class="footer-ctr-lft clearfix">
+                    <div>
+                        <p>购物指南</p>
+                        <span>享0分期利息</span>
+                        <span>以旧换新</span>
+                        <span>众测活动</span>
+                        <span>企业购</span>
+                        <span>O2O采购</span>
+                        <span>教育购</span>
+                    </div>
+                    <div>
+                        <p>保修与退换货</p>
+                        <span>保修政策</span>
+                        <span>退换货政策</span>
+                        <span>退换货流程</span>
+                        <span>保修状态查询</span>
+                        <span>配件防伪查询</span>
+                    </div>
+                    <div>
+                        <p>维修与技术支持</p>
+                        <span>售后网点</span>
+                        <span>预约维修</span>
+                        <span>手机寄修</span>
+                        <span>备件价格查询</span>
+                        <span>上门服务</span>
+                    </div>
+                    <div>
+                        <p>特色服务</p>
+                        <span>防伪查询</span>
+                        <span>补够保障</span>
+                        <span>以旧换新</span>
+                    </div>
+                    <div>
+                        <p>关于我们</p>
+                        <span>公司介绍</span>
+                        <span>华为零售店</span>
+                        <span>商家中心</span>
+                        <span>意见反馈</span>
+                        <span>规则中心</span>
+                    </div>
+                    <div>
+                        <p>友情链接</p>
+                        <span>华为集团</span>
+                        <span>华为消费者业务</span>
+                        <span>华为</span>
+                        <span>华为应用市场</span>
+                        <span>华为心声社区</span>
+                    </div>
+                </div>
+                <div class="footer-rgt-wrapper clearfix">
+                    <h4>950805</h4>
+                    <span>7x24小时客户服务（仅收市话费）</span>
+                    <div class="customer">
+                        <i class="iconfont icon-customer-service"></i>
+                        <span>在线客服</span>
+                    </div>
+                    <div class="footer-icon">
+                        <span>关注Vmall：</span>
+
+                        <i class="iconfont icon-wechat">
+                            <div class="wechat-popup">
+                                <img src="../home/wechat.jpg" alt="WeChat QR Code" height="120px" width="120px" />
+                            </div>
+                        </i>
+
+
+                        <i class="iconfont icon-alipay"></i>
+                        <i class="iconfont icon-microblog"></i>
+                        <i class="iconfont icon-huawei"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-btm-wrapper">
+                <div class="btm-lft"><img src="../home/iconf/logo.png" alt=""></div>
+                <div class="btn-ctr">
+                    <a href="">华为集团<span>|</span></a>
+                    <a href="">华为CBG官网<span>|</span></a>
+                    <a href="">荣耀官网<span>|</span></a>
+                    <a href="">花粉俱乐部<span>|</span></a>
+                    <a href="">华为应用市场<span>|</span></a>
+                    <a href="">EMUI<span>|</span></a>
+                    <a href="">华为终端云空间<span>|</span></a>
+                    <a href="">开发者联盟<span>|</span></a>
+                    <a href="">华为商城手机版<span>|</span></a>
+                    <a href="">网站地图</a>
+                </div>
+                <div class="btn-btn">
+                    <a href="">隐私声明</a>
+                    <a href="">服务协议</a>
+                    <a href="">COOKIES</a>
+                    <span>Copyright © 2012-2024 华为终端有限公司 版权所有 | 经营资质 </span>
+                    <a href="">粤ICP备19015064号</a>
+                    <span>|</span>
+                    <a href="">粤公网安备 44190002003939号</a>
+                    <span>增值电信业务经营许可证：粤B2-20190762|备案主体编号：44201919072182</span>
+                    <span>互联网药品信息服务资格证（粤）-非经营性-2020-0102 | 广东省网络食品交易第三方平台备案：GDWS10168 | APP备案号:
+                        粤ICP备19015064号-39A号</span>
+                </div>
+                <div class="btn-rgt clearfix">
+                    <img src="../home/iconf/ga.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="home.js"></script>
+    <script src='../public/js-cookie.js'></script>
+    <script src="home2.js"></script>
+
+</body>
+
+</html>
